@@ -1,7 +1,7 @@
 # VoiceInventory-python
-Use speech to highlight location of item in inventory.
+Use speech to highlight location of item in inventory. In this example Google Speech Recoginition was used to convert voice to text mesages. 
 
-####Test items:
+###Test items:
 * hammer
 * mallet
 * ax
@@ -35,3 +35,14 @@ Use speech to highlight location of item in inventory.
 * wood screw
 * machine screw
 * bolt
+
+###System Requirements
+* **Python 3.4**
+* **PyAudio**
+* **Python3-Tk**
+
+###Python modules
+* **SpeechRecognition**
+* **Queue**
+
+
