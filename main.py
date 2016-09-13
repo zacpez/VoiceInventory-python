@@ -143,12 +143,16 @@ class GuiPart:
             except Empty:
                 # No message to parse
                 pass
+            except Exception:
+                pass
 
     def getCommand(self, message):
         command = message.split(' ', 1)
         self.master.title(message)
         if(message in stuff):
             command = stuff[message]
+        else:
+            raise Exception("No Command")
         return command
 
     def action(self, command):
