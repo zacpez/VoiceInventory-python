@@ -1,5 +1,8 @@
 # VoiceInventory-python
-Use speech to highlight location of item in inventory. In this example Google Speech Recoginition was used to convert voice to text mesages. 
+This is a low fidelity prototype for a voice activate workshop. Use speech to highlight tool locations around a shop. In this example Google Speech Recoginition was used, however there are more modules to try. 
+
+Example screenshot when user says "pliers":
+![Prototype positional output](https://github.com/zacpez/VoiceInventory-python/blob/master/inventory-sample.png?raw=true)
 
 ###Test items:
 * hammer
