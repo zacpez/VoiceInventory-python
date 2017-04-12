@@ -5,6 +5,7 @@ Travis says:
 [![Build Status](https://travis-ci.org/zacpez/VoiceInventory-python.svg?branch=master)](https://travis-ci.org/pantsbuild/pants/branches).
 
 #### Example screenshot when user says "pliers": ####
+To run VoiceInventory:  ``./main.py``
 
 ![Prototype positional output](https://github.com/zacpez/VoiceInventory-python/blob/master/inventory-sample.png?raw=true)
 
