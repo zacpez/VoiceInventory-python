@@ -10,7 +10,6 @@ addons:
       - python-pyaudio 
       - python3-pyaudio
 install:
-  - pip install queue
   - pip install SpeechRecognition
   - pip install python-tk
 script:
